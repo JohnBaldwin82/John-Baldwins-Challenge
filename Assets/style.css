@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    .main {
+        width: 100%;
+    }
+}
+
+body {
+    background-color: gray;
+}
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: darkblue;
+    color: #ffffff;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+    text-shadow: 5px 5px 10px lightblue;
+}
+
+header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+header div ul {
+    list-style-type: none;
+}
+
+header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.me {
+    height: 600px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./Rocky\ Mountain\ background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+main {
+    width: 95%;
+    display: inline-block;
+    margin-left: 20px;
+    columns: 2;
+}
+
+.personal img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
+.personal {
+    margin-bottom: 20px;
+    padding: 25px;
+    height: 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: darkslategray;
+    color: #ffffff;
+}
+
+a:hover, p:hover {
+    color: yellow;
+}
+
+.personal img {
+    max-height: 200px;
+}
+
+
+.personal h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    text-shadow: 4px 4px darkblue;
+
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
